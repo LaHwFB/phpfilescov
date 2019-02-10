@@ -1,5 +1,5 @@
 <?php
-   $con=mysqli_connect("https://127.0.0.1/phpmyadmin","root","","covoiturage");
+   $con=mysqli_connect("https://127.0.0.1:443/phpmyadmin","root","","covoiturage");
 
    if (mysqli_connect_errno($con)) {
       echo "Failed to connect to MySQL: " . mysqli_connect_error();
